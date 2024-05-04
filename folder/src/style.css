@@ -1,0 +1,83 @@
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+}
+.emoji{
+    width:50px;
+}
+.current-text {
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.current-text p {
+    color: #868686
+}
+
+.celsius {
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+}
+
+.celsius-text {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+}
+
+body {
+    background-color: #F5F0FE;
+    font-family: "Raleway", sans-serif;
+}
+
+#input-field {
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    background-color: #F5F0FE;
+}
+
+#searchButton {
+    height: 45px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 37px;
+}
+
+.bottomText {
+    font-size: 12px;
+    text-align: center;
+    color: #868686
+}
+
+strong {
+    color: #EC7494;
+}
+
+a {
+    color: blueviolet;
+}
