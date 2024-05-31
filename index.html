@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My weather application</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌤️</text></svg>">
+
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
@@ -24,9 +26,13 @@
             Humidity: <strong class="humidity"></strong>, Wind: <strong class="wind"></strong>
           </p>
           </div>
+         
         <div class="celsius" data-label="emojiImage"><img class="emoji" src="" /><span class="celsius-text"></span><span>°C</span> </div>
     </div>
     </main>
+    <div class="weather-forecast" id="forecast">
+   
+    </div>
     <footer>
       <p class="bottomText">
         This project was coded by

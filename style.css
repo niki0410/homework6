@@ -2,8 +2,27 @@
     display: flex;
     justify-content: space-between;
 }
+.weather-forecast{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+.date{
+    font-size: 14px;
+    opacity:0.5;
+}
+.tempSpanMin{
+    font-size: 13px;
+    opacity:0.5;
+}
+.tempSpanMax{
+    font-size: 13px;
+}
+.forecastImage{
+    width: 100%;
+}
 .emoji{
-    width:50px;
+    width:70px;
 }
 .current-text {
     display: block;
